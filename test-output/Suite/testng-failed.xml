@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="10" name="ieTest(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="org.map.hashmap.TestClass">
+        <methods>
+          <include name="test4"/>
+          <include name="endTest"/>
+          <include name="test2"/>
+          <include name="test5"/>
+          <include name="test8"/>
+          <include name="test3"/>
+          <include name="test6"/>
+          <include name="test9"/>
+          <include name="setup"/>
+          <include name="test7"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- org.map.hashmap.TestClass -->
+    </classes>
+  </test> <!-- ieTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
